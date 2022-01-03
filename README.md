@@ -9,7 +9,7 @@ An [example image](https://i.imgur.com/4FDoNpw.jpg) of the output was provided b
 
 TTS_RoomTokenizer is only intended to be used on legally acquired digital maps.
 
-## Installation and Usage Instructions:
+## Installation and Usage Instructions
 Instructions were written using GIMP v2.8.16 on Windows and may vary with other versions.  It has also been tested with v2.10.14 on Windows.
 
 This has not been tested on OSX or Linux.  It is expected to work (with an additional manual step for OSX users in the instructions below), but it has not been confirmed.
@@ -33,3 +33,7 @@ This has not been tested on OSX or Linux.  It is expected to work (with an addit
 * Import the images into TTS as custom tokens.  Unfortunately, this must be done one by one.
 
 * Put all your tokens into a hidden area, drag them out onto the main table when your players get to that room, and scale them to size (+/- keys).
+
+## Caveats
+* The XCF file must be a single layer when using this script (see issue #4)
+* It is surprisingly difficult to find clear, concise documentation on GIMP scripting, so there is a nonzero amount of cargo cult code with some of the GIMP functions.  Specific examples are called out in issue #1
